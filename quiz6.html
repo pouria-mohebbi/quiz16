@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Editor</title>
+  <style>
+    #editor {
+      width: 100%;
+      height: 150px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    .button-container {
+      margin-bottom: 10px;
+    }
+    button {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button id="removeLast">Remove Last Letter</button>
+    <button id="deleteAll">Delete All Text</button>
+    <button id="boldText">Bold</button>
+    <button id="italicizeText">Italic</button>
+  </div>
+  <div id="editor" contenteditable="true">Type your text here...</div>
+
+ 
+   <script src="./quiz6.js"></script>
+</body>
+</html>
